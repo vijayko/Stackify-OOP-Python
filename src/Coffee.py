@@ -7,7 +7,7 @@ class Coffee:
 		return repr(self.selection.name + " is ready!")
 
 	def getSelection(self):
-		return selection
+		return self.selection
 		
 	def getQuantity(self):
 		return self.quantity

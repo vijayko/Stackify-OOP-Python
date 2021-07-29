@@ -7,4 +7,4 @@ class Configuration:
 		return self.quantityCoffee
 
 	def getQuantityWater(self):
-		return quantityWater
+		return self.quantityWater
